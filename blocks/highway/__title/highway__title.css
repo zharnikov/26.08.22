@@ -1,0 +1,23 @@
+.highway__title {
+    margin: 0;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px; 
+}
+
+@media (max-width: 672px) {
+    
+    .highway__title {
+        margin-top: 40px;
+        order: 1;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .highway__title {
+        font-size: 32px;
+        line-height: 40px; 
+    }
+
+}

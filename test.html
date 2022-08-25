@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- поменять после  -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Журнал о велоспорте">
+    <meta name="keywords" content="html, css">
+    <meta name="author" content="Софья Буряк, Владимир Жарников">
+</head>
+<body class="body">
+
+    <!-- HEADER -->
+    <header class="header">
+        <ul class="header__links">
+            <li><a href="#highway__anchor" class="header__link">Покрытия и градиенты</a></li>
+            <li><a href="#bicycles__anchor" class="header__link">Велосипеды</a></li>
+            <li><a href="#training__anchor" class="header__link">Тренировки</a></li>
+            <a href="#"><img class="header__burger" src="./images/__header-burger.png" alt="иконка бургер меню"></a>
+        </ul>
+    </header>  
+
+    <!-- MAIN -->
+    <main class="page">
+        
+        /* TRAINING */
+
+.training {
+    /* max-width: 1200px; */
+    display: grid;
+    grid-template-columns: minmax(283px, 460px) minmax(min-content, max-content);
+    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 150px 120px 120px;
+    position: relative;
+}
+
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h3 class="footer__text">Подпишитесь на рассылку —</h3>
+        <input class="footer__input" type="email" placeholder="Ваш e-mail">
+        <p class="footer__copyright">&copy; Road Club 2021</p>
+        <img class="footer__logo" src="./images/__footer-logo.svg" alt="логотип в форме крышки от колы">
+    </footer>
+
+</body>
+</html>

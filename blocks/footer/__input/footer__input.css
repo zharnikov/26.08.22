@@ -1,0 +1,27 @@
+.footer__input {
+    max-width: 360px;
+    min-height: 50px;
+    margin: 50px 0 0 120px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 27.98px;
+    border: 1px solid #C7C7C7;
+    border-radius: 4px; 
+    background-color: #EFEFEF;
+    color: #222222;
+    padding-left: 20px;
+}
+
+.footer__input:active {
+    border: 1px solid #C7C7C7;
+    color: #151515;
+}
+
+@media (max-width: 672px) {
+
+    .footer__input {
+        max-width: 284px;
+        margin: 40px 18px;
+    }
+
+}

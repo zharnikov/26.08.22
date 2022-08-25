@@ -1,0 +1,15 @@
+.footer__text {
+    margin: 80px 0 0 120px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    max-width: 229px;
+}
+
+@media (max-width: 672px) {
+
+    .footer__text {
+        margin: 60px 18px 0;
+    }
+
+}

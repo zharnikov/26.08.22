@@ -5,3 +5,27 @@
 @import url(../vendor/fonts/fonts.css);
 
 /* BODY */
+
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__burger/header__burger.css);
+
+
+/* HIGHWAY */
+@import url(../blocks/highway/highway.css);
+@import url(../blocks/highway/__title/highway__title.css);
+@import url(../blocks/highway/__subtitle/highway__subtitle.css);
+@import url(../blocks/highway/__images/highway__images.css);
+@import url(../blocks/highway/__image/highway__image.css);
+@import url(../blocks/highway/__image/status/highway__image-hide.css);
+@import url(../blocks/highway/__anchor/#highway__anchor.css);
+@import url(../blocks/highway/__line/highway__line.css); 
+
+/* FOOTER  */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__input/footer__input.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__logo/footer__logo.css);

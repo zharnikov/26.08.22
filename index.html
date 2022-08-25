@@ -17,9 +17,10 @@
     <!-- HEADER -->
     <header class="header">
         <ul class="header__links">
-            <li><a href="" class="header__link">Покрытия и градиенты</a></li>
-            <li><a href="" class="header__link">Велосипеды</a></li>
-            <li><a href="#training" class="header__link">Тренировки</a></li>
+            <li><a href="#highway__anchor" class="header__link">Покрытия и градиенты</a></li>
+            <li><a href="#bicycles__anchor" class="header__link">Велосипеды</a></li>
+            <li><a href="#training__anchor" class="header__link">Тренировки</a></li>
+            <a href="#"><img class="header__burger" src="./images/__header-burger.png" alt="иконка бургер меню"></a>
         </ul>
     </header> 
 
@@ -31,14 +32,15 @@
             <h1 class="lead__title">Шоссе, ТТ 
                 и&nbsp;Грэвел</h1>
             <p class="lead__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
-            <button class="lead__button">Подробнее</button>
+            <a class="lead__button" href="#">Подробнее</a>
             <div class="lead__description">
                 <p class="lead__description-main">Cannondale Systemsix</p>
                 <!-- <p class="lead__description-line">-</p> -->
-                <img class="lead__description-line" src="./images/__lead-line.jpg" alt="линия">
+                <img class="lead__description-line" src="./images/__lead-line.jpg" alt="декоративная линия">
             </div>
             <img class="lead__image" src="./images/__lead.jpg" alt="Вид на проселочную дорогу, проходящую в лесу, по-которой едет велосипедист. На фоне небо, затянутое белыми облаками.">
-            <img class="lead__image-scroll" src="" alt="Фото розового шоссейного велосипеда Cannondale Systemsix">
+            <!-- <img class="lead__image-scroll" src="./images/1.jpg" alt="Фото розового шоссейного велосипеда Cannondale Systemsix">
+            <img class="lead__image-scroll" src="./images/22.jpg" alt="Фото розового шоссейного велосипеда Cannondale Systemsix"> -->
         </section>
 
         <!-- INTRO -->
@@ -53,8 +55,12 @@
             </article>
         </section>
 
+        <!-- ANCHOR -->
+        <a id="highway__anchor"></a>
+
         <!--  HIGHWAY -->
         <section class="highway">
+            <img class="highway__line" src="./images/__highway-line.svg" alt="линия, разделяющая блоки">
             <h2 class="highway__title">Шоссе</h2>
             <p class="highway__subtitle">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
             <div class="highway__images">
@@ -62,6 +68,9 @@
                 <img class="highway__image" src="./images/__highway-2.jpg" alt="Вид на просёлочную дорогу">
             </div>
         </section>
+
+         <!-- ANCHOR -->
+         <a id="bicycles__anchor"></a>
 
         <!-- BICYCLES -->
         <section class="bicycles">
@@ -75,17 +84,18 @@
             </div>
             <ul class="bicycles__models">
                 <li class="bicycles__model">
-                    <figure>
-                        <img src="./images/__model-1.jpg" alt="">
-                        <figcaption>Cervelo Caledonia-5</figcaption>
-                    </figure>
+                    <a href=""><img src="./images/__model-back.png" alt=""></a>
+                    <p></p>
                 </li>
                 <li class="bicycles__model">11</li>
                 <li class="bicycles__model"></li>
             </ul>
             
         </section>
-        
+
+        <!-- ANCHOR -->
+        <a id="training__anchor"></a>
+
         <!-- TRAINING -->
         <section id="training" class="training">
             <h2 class="training__tittle">Тренировки</h2>
@@ -101,8 +111,9 @@
     <!-- FOOTER -->
     <footer class="footer">
         <h3 class="footer__text">Подпишитесь на рассылку —</h3>
-        <input class="footer__input-email" type="email" placeholder="Ваш e-mail">
+        <input class="footer__input" type="email" placeholder="Ваш e-mail">
         <p class="footer__copyright">&copy; Road Club 2021</p>
+        <img class="footer__logo" src="./images/__footer-logo.svg" alt="логотип в форме крышки от колы">
     </footer>
 </body>
 </html>

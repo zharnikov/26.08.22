@@ -1,0 +1,23 @@
+.highway {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 160px 120px;
+}
+
+@media (max-width: 1024px) {
+
+    .highway {
+        margin: 60px 0 80px 120px;
+    }
+
+}
+
+@media (max-width: 672px) {
+
+    .highway {
+        max-width: calc(100% - 18px * 2);
+        margin: 40px auto 40px;
+    }
+
+}
