@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- поменять после  -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Журнал о велоспорте">
+    <meta name="keywords" content="html, css">
+    <meta name="author" content="Софья Буряк, Владимир Жарников">
+</head>
+<body class="body">
+
+    <!-- HEADER -->
+    <header class="header">
+        <ul class="header__links">
+            <li><a href="" class="header__link">Покрытия и градиенты</a></li>
+            <li><a href="" class="header__link">Велосипеды</a></li>
+            <li><a href="#training" class="header__link">Тренировки</a></li>
+        </ul>
+    </header> 
+
+    <!-- MAIN -->
+    <main class="page">
+
+        <!-- LEAD -->
+        <section class="lead">
+            <h1 class="lead__title">Шоссе, ТТ 
+                и&nbsp;Грэвел</h1>
+            <p class="lead__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+            <button class="lead__button">Подробнее</button>
+            <div class="lead__description">
+                <p class="lead__description-main">Cannondale Systemsix</p>
+                <!-- <p class="lead__description-line">-</p> -->
+                <img class="lead__description-line" src="./images/__lead-line.jpg" alt="линия">
+            </div>
+            <img class="lead__image" src="./images/__lead.jpg" alt="Вид на проселочную дорогу, проходящую в лесу, по-которой едет велосипедист. На фоне небо, затянутое белыми облаками.">
+            <img class="lead__image-scroll" src="" alt="Фото розового шоссейного велосипеда Cannondale Systemsix">
+        </section>
+
+        <!-- INTRO -->
+        <section class="intro">
+            <img class="intro__image" src="./images/__intro.jpg" alt="Вид на шоссе, проходящее через сопку, к деревне">
+            <article class="intro__column">
+                <h2 class="intro__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+                <div class="intro__copyright">
+                    <p class="intro__author">Эдди Меркс</p>
+                    <p class="intro__subauthor">Велогонщик</p>
+                </div>
+            </article>
+        </section>
+
+        <!--  HIGHWAY -->
+        <section class="highway">
+            <h2 class="highway__title">Шоссе</h2>
+            <p class="highway__subtitle">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+            <div class="highway__images">
+                <img class="highway__image" src="./images/__highway-1.jpg" alt="Вид на шоссейную дорогу">
+                <img class="highway__image" src="./images/__highway-2.jpg" alt="Вид на просёлочную дорогу">
+            </div>
+        </section>
+
+        <!-- BICYCLES -->
+        <section class="bicycles">
+            <div class="bicycles__menu">
+                <h2 class="bicycles__title">Велосипеды</h2>
+                <ul class="bicycles__links">
+                    <li><a class="bicycles__link" href="">Шоссе</a></li>
+                    <li><a class="bicycles__link" href="">Грэвел</a></li>
+                    <li><a class="bicycles__link" href="">TT</a></li>
+                </ul>
+            </div>
+            <ul class="bicycles__models">
+                <li class="bicycles__model">
+                    <figure>
+                        <img src="./images/__model-1.jpg" alt="">
+                        <figcaption>Cervelo Caledonia-5</figcaption>
+                    </figure>
+                </li>
+                <li class="bicycles__model">11</li>
+                <li class="bicycles__model"></li>
+            </ul>
+            
+        </section>
+        
+        <!-- TRAINING -->
+        <section id="training" class="training">
+            <h2 class="training__tittle">Тренировки</h2>
+            <p class="training__subtittle">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+            <ul class="training__links">
+                <li><a class="training__link" href="https://www.strava.com" target="_blank">Strava</a></li>
+                <li><a class="training__link" href="https://www.komoot.com" target="_blank">Komoot</a></li>
+            </ul>
+            <img class="training__image" src="./images/__training.jpg" alt="Вид шоссе в горной местности, уходяшего за поворот">
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h3 class="footer__text">Подпишитесь на рассылку —</h3>
+        <input class="footer__input-email" type="email" placeholder="Ваш e-mail">
+        <p class="footer__copyright">&copy; Road Club 2021</p>
+    </footer>
+</body>
+</html>
