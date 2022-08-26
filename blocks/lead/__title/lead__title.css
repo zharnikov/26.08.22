@@ -7,3 +7,15 @@
     line-height: 4.17vw;
     letter-spacing: -0.5px;  
 }
+
+@media (max-width: 320px) {
+      
+    .lead__title {
+        max-width: 284px;
+        margin-top: 40px;
+        font-size: 32px;
+        line-height: 40px;
+        order: 1;
+    }
+
+}

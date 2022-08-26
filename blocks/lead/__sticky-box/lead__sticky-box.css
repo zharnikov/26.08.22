@@ -5,3 +5,12 @@
     top: 347px;
     text-align: center;
 }
+
+@media (max-width: 320px) {
+      
+    .lead__sticky-box {
+        top: 395.67px;
+        text-align: left;
+    }
+
+}

@@ -1,9 +1,21 @@
 .lead {
     max-width: 1440px;
-    max-height: 59.44vw;
+    /* max-height: 59.44vw; */
     margin-left: 8.33vw;
     display: flex;
     flex-direction: column;
     position: relative;
+}
+
+@media (max-width: 320px) {
+      
+    .lead {
+        max-width: calc(100% - 18px * 2);
+        /* max-height: 59.44vw; */
+        margin: 74px auto 40px;
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
 
 }

@@ -5,3 +5,14 @@
     background-color: #fff;
     border-radius: 20px;
 }
+
+@media (max-width: 320px) {
+      
+    .lead__sticky-image {
+        position: static;
+        width: 180.82px;
+        height: 138.67px;
+        padding: 10.67px 26.59px;
+    }
+
+}

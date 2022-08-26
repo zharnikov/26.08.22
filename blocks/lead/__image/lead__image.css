@@ -1,8 +1,20 @@
 .lead__image {
-    width: 100%;
     max-width: 42.36vw;
     max-height: 58.06vw;
     position: absolute;
     right: 0;
     top: 1.39vw;
+}
+
+@media (max-width: 320px) {
+      
+    .lead__image {
+        order: 2;
+        position: static;
+        align-self: flex-end;
+        margin-top: 40px;
+        max-width: 254px;
+        min-height: 348px;
+    }
+
 }

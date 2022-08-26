@@ -9,6 +9,7 @@
 @media (max-width: 672px) {
     
     .bicycles__description {
+        margin: 0;
         font-size: 14px;
         line-height: 18px;
         background-color: #fff;
