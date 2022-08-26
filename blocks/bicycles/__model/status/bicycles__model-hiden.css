@@ -1,0 +1,7 @@
+@media (max-width: 672px) {
+
+    .bicycles__model-hiden {
+        display: none;
+    }
+
+}

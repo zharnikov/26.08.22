@@ -1,0 +1,20 @@
+.bicycles__description {
+    margin: 0;
+    margin-top: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px; 
+}
+
+@media (max-width: 672px) {
+    
+    .bicycles__description {
+        font-size: 14px;
+        line-height: 18px;
+        background-color: #fff;
+        text-align: center;
+        padding-bottom: 16px;
+        border-radius: 0 0 20px 20px;
+    }
+
+}

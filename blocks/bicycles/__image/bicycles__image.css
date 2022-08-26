@@ -1,0 +1,16 @@
+.bicycles__image {
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+@media (max-width: 672px) {
+    
+    .bicycles__image {
+        width: 254.11px;
+        height: 254.11px;
+    }
+
+}

@@ -1,0 +1,12 @@
+.bicycles__line {
+    display: none;
+}
+
+@media (max-width: 672px) {
+    
+    .highway__line {
+        display: block;
+        width: 100%;
+    }
+    
+}

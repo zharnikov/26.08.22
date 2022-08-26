@@ -1,0 +1,12 @@
+.bicycles__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 672px) {
+    
+    .bicycles__menu {
+        flex-direction: column;
+    }
+
+}

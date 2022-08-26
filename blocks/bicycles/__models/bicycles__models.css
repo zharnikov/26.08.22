@@ -1,0 +1,15 @@
+.bicycles__models {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 120px;
+}
+
+@media (max-width: 672px) {
+      
+    .bicycles__models {
+        margin-top: 40px;
+    }
+
+}
