@@ -1,0 +1,44 @@
+.training {
+    max-width: calc(100% - 120px * 2);
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto 120px;
+    position: relative;
+}
+
+@media (max-width: 1300px) {
+
+    .training {
+        margin: 150px auto 60px;
+    }
+
+}
+
+@media (max-width: 672px) {
+
+    .training {
+        max-width: calc(100% - 18px * 2);
+        margin: 40px auto 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+.training__link {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; 
+    color: #151515;
+}
+
+.training__link:hover {
+    opacity: 0.75;
+}
+
+@media (max-width: 672px) {
+
+    .training__link {
+        font-size: 14px;
+        line-height: 20px; 
+    }
+
+}

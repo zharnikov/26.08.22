@@ -1,0 +1,22 @@
+.merks__paragraph {
+    max-width: 31.25vw;
+    min-height: 9.17vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.36vw;
+    line-height: 129%;
+    letter-spacing: -0.5px;
+    color: #151515;
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .merks__paragraph {
+        margin: 0;
+        max-width: 284px;
+        font-size: 23px;
+        padding-top: 40px;
+    }
+
+}

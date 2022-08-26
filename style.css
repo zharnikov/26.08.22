@@ -1,35 +1,16 @@
-/* BODY */
-
-.body {
-    background: #F4F4F4;
-    color: #151515;
-    font-family: 'Inter', sans-serif;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0;
-}
-
-/* PAGE */
-
-.page {
-    margin: 0;
-    margin-top: 74px;
-}
-
-
 /* MAIN */
 
 /* LEAD */
 
-.lead {
+/* .lead {
     max-width: 1440px;
     display: flex;
     flex-direction: column;
     margin-left: 120px;
     position: relative;
-}
+} */
 
-.lead__title {
+/* .lead__title {
     max-width: 460px;
     margin: 0;
     margin-top: 80px;
@@ -38,9 +19,9 @@
     line-height: 60px;
     letter-spacing: -0.5px;
     
-}
+} */
 
-.lead__subtitle {
+/* .lead__subtitle {
     max-width: 460px;
     margin: 0;
     margin-top: 50px;
@@ -49,9 +30,9 @@
     line-height: 28px;
     color: #222222;
     opacity: 0.7;
-}
+} */
 
-.lead__button {
+/* .lead__button {
     margin: 0;
     margin-top: 50px;
     width: 160px;
@@ -65,7 +46,7 @@
     line-height: 18px;
     padding: 16px 10px;
     text-align: center;
-}
+} */
 
 /* .lead__button:hover {
     background: linear-gradient(to right, rgba(0,128,0,1) 0%,rgba(0,128,0,1) 100%);
@@ -73,7 +54,7 @@
 } */
 
 
-.lead__description {
+/* .lead__description {
     display: flex;
     align-items: center;
     margin: 167px 0 209px;
@@ -92,7 +73,7 @@
     text-align: end;
     width: 132px;
     height: 2px;
-}
+} */
 
 .lead__image {
     position: absolute;
@@ -102,43 +83,16 @@
     height: 836px;
 }
 
-/* INTRO */
-
-.intro {
-    max-width: 1440px;
-    display: flex;
-    justify-content: space-between;
-    margin: 120px 120px 60px 120px;
+.lead__sticky {
+    max-width: 810px;
+    max-height: 430px;
+    position: absolute;
+    top: 347px;
+    right: 370px;
 }
 
-.intro__column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.intro__title {
-    max-width: 470px;
-    margin: 0;
-    font-size: 34px;
-    font-weight: 600;
-    line-height: 44px;
-}
-
-.intro__author {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 32px;
-}
-
-.intro__subauthor {
-    margin: 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    color: #222222;
-    opacity: 0.7;
+.lead__image-sticky {
+    position: sticky;
 }
 
 /* BICYCLES */
@@ -183,21 +137,6 @@
     opacity: 0.75;
 }
 
-.bicycles__models {
-    margin: 0;
-    margin-top: 140px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    list-style: none;
-    /* background-image: url(./images/__model-background.jpg); */
-
-}
-
-.bicycles__model {
-    background-color: #fff;
-}
-
 #bicycles__anchor {
     margin-top: -74px;
     display: inline-block;
@@ -206,72 +145,26 @@
     width: 1px;
 }
 
-/* TRAINING */
-
-.training {
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
+.bicycles__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(340px, 1fr));
     justify-content: space-between;
-    margin: 150px 120px 120px;
-    position: relative;
-}
-
-.training__column {
-    display: flex;
-    flex-direction: column;
-}
-
-.training__tittle {
-    max-width: 460px;
-    margin: 0;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 60px;
-}
-
-.training__subtittle {
-    margin: 50px 0 182px;
-    max-width: 460px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px; 
-    color: #222222;
-    opacity: 0.7;
-}
-
-.training__links {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    margin-top: 120px;
     list-style: none;
-    display: flex;
 }
 
-.training__link {
+.bicycles__card {
+    width: 380px;
+    height: 380px;
+}
+
+.bicycles__card-link {
     text-decoration: none;
-    margin-right: 30px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 28px; 
-    color: #151515;
 }
 
-.training__link:hover {
-    opacity: 0.75;
-}
+.bicycles__image {
 
-.training__image {
-    max-width: 100%;
-    max-height: 100%;
-    /* margin-left: 80px; */
-    position: absolute;
-    right: 0;
-}
-
-#training__anchor {
-    margin-top: -74px;
-    display: inline-block;
-    position: relative;
-    height: 1px;
-    width: 1px;
 }

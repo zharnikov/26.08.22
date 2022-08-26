@@ -1,0 +1,9 @@
+.lead {
+    max-width: 1440px;
+    max-height: 59.44vw;
+    margin-left: 8.33vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}

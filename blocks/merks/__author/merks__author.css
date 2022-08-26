@@ -1,0 +1,17 @@
+.merks__author {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.39vw;
+    line-height: 106%;
+    color: #151515;
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .merks__author {
+        font-size: 14px;
+    }
+
+}

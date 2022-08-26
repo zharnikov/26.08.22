@@ -1,0 +1,13 @@
+.merks__line {
+    display: none;
+}
+
+@media (max-width: 500px) {
+
+    .merks__line {
+        display: block;
+        width: 100%;
+        margin: 40px auto 20px;
+    }
+
+}

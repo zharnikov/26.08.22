@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- поменять после  -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Журнал о велоспорте">
+    <meta name="keywords" content="html, css">
+    <meta name="author" content="Софья Буряк, Владимир Жарников">
+</head>
+<body class="body">
+
+    <!-- HEADER -->
+    <header class="header">
+        <ul class="header__links">
+            <li><a href="#highway__anchor" class="header__link">Покрытия и градиенты</a></li>
+            <li><a href="#bicycles__anchor" class="header__link">Велосипеды</a></li>
+            <li><a href="#training__anchor" class="header__link">Тренировки</a></li>
+            <a href="#"><img class="header__burger" src="./images/__header-burger.png" alt="иконка бургер меню"></a>
+        </ul>
+    </header> 
+
+    <!-- MAIN -->
+    <main class="page">
+
+        <!-- LEAD -->
+
+        <!-- MERKS -->
+        <section class="merks">
+            <img class="merks__line" src="./images/__line.svg" alt="линия, разделяющая блоки">
+            <img class="merks__image" alt="Вид на шоссе, проходящее через сопку, к деревне" src="./images/__merks.jpg">
+            <article class="merks__column">
+                <h2 class="merks__paragraph">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+                <div class="merks__copyright">
+                    <p class="merks__author">Эдди Меркс</p>
+                    <p class="merks__position">Велогонщик</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- ANCHOR -->
+        <a id="highway__anchor"></a>
+
+        <!--  HIGHWAY -->
+        <section class="highway">
+            <img class="highway__line" src="./images/__line.svg" alt="линия, разделяющая блоки">
+            <h2 class="highway__title">Шоссе</h2>
+            <p class="highway__subtitle">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+            <div class="highway__images">
+                <img class="highway__image" src="./images/__highway-1.jpg" alt="Вид на шоссейную дорогу">
+                <img class="highway__image highway__image-hide" src="./images/__highway-2.jpg" alt="Вид на просёлочную дорогу">
+            </div>
+        </section>
+
+        <!-- ANCHOR -->
+         <a id="bicycles__anchor"></a> 
+        
+        <!-- BICYCLES -->
+         
+        <!-- ANCHOR -->
+        <a id="training__anchor"></a>
+
+        <!-- TRAINING -->
+
+        <section class="training">
+            <img class="training__line" src="./images/__line.svg" alt="линия, разделяющая блоки">
+            <h2 class="training__tittle">Тренировки</h2>
+            <p class="training__subtittle">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.
+            </p>
+            <nav class="training__links">
+                <a class="training__link" href="https://www.strava.com" target="_blank" rel="noopener">Strava</a>
+                <a class="training__link" href="https://www.komoot.com" target="_blank" rel="noopener">Komoot</a>
+            </nav>
+            <img class="training__image" src="./images/__training.jpg" alt="Вид шоссе в горной местности, уходяшего за поворот">
+        </section>
+       
+    </main>        
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h3 class="footer__text">Подпишитесь на рассылку —</h3>
+        <input class="footer__input" type="email" placeholder="Ваш e-mail">
+        <p class="footer__copyright">&copy; Road Club 2021</p>
+        <img class="footer__logo" src="./images/__footer-logo.svg" alt="логотип в форме крышки от колы">
+    </footer>
+</body>
+</html>

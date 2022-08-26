@@ -1,12 +1,13 @@
-.highway__line {
+.training__line {
     display: none;
 }
 
 @media (max-width: 672px) {
 
-    .highway__line {
+    .training__line {
         display: block;
         width: 100%;
+        order: -1;
     }
 
 }
